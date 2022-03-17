@@ -1,0 +1,240 @@
+@font-face {
+    font-family: "Bebas";
+    src: url(../fonts/BebasRegular.otf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Bebas";
+    src: url(../fonts/BebasBold.ttf);
+    font-weight: 700;
+}
+@font-face {
+    font-family: "Bebas";
+    src: url(../fonts/BebasLight.otf);
+    font-weight: 300;
+}
+
+//==================================MAIN-STYLES===================================================
+
+body {
+    margin: 0;
+}
+.carprice {
+    box-sizing: border-box;
+    background-size: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    //font-size: calc(14px + (28 - 14) * ((100vw - 320px) / (1900 - 320)));
+    font-weight: 400;
+}
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.title {
+    font-size: 50px;
+    font-weight: 700;
+    border-bottom: 1px solid #40b977;
+}
+.text {
+    font-size: 28px;
+    color: #40b977;
+}
+.green {
+    color: #40b977;
+}
+
+
+
+.header {
+    background-image: url(../images/header/bg_header.png);
+    background-size: cover;
+    height: 140vh;
+    padding-top: 15%;
+    margin-top: -12%;
+}
+.header__inner {
+}
+.logo {
+    display: flex;
+    justify-content: center;
+}
+.logo__img {
+    width: 35%;
+}
+.main {
+    background-image: url(../images/main__bg.png);
+    background-size: cover;
+    margin-top: -12%;
+    padding-top: 12%;
+}
+.obraz__title {
+    font-family: 'Bebas';
+    font-size: 75px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 0;
+}
+
+.tasks {
+}
+.tasks__inner {
+}
+.tasks__title {
+}
+
+.tasks__content {
+}
+.tasks__list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0;
+}
+.tasks__item1 {
+}
+.tasks__item1-title {
+    font-size: 40px;
+    position: relative;
+}
+.tasks__item1-title::before {
+    content: '01';
+    position: absolute;
+    font-size: 250px;
+    color: #40b977;
+    opacity: 0.2;
+    top: -250%;
+    left: -25%;
+}
+.tasks__item1-title2::before {
+    content: '02';
+}
+.tasks__item2 {
+    max-width: 700px;
+}
+.tasks__item2-text {
+}
+
+.campaign {
+    margin-bottom: 100px;
+}
+.campaign__inner {
+}
+.campaign__title {
+}
+.campaign__content {
+    margin-left: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.campaign__item {
+    flex-basis: 45%;
+}
+.campaign__item-text {
+    color: black;
+    position: relative;
+}
+.campaign__item-text::before {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: #40b977;
+    opacity: 0.5;
+    border-radius: 50%;
+    left: -30px;
+    top: 10px;
+}
+.portraits {
+    margin-bottom: 100px;
+}
+.portraits__inner {
+}
+.portraits__title {
+}
+.slider {
+}
+.slider1 {
+}
+.slider1__item {
+    margin-right: 10px;
+}
+.slider1__item-img {
+    width: 100%;
+}
+.slider1__item-subtitle {
+}
+.slider1__item-text {
+}
+
+.desicion {
+    margin-bottom: 100px;
+    background-image: url(../images/desicion/desicion_bg.jpg.png);
+    background-size: 135%;
+    background-repeat: no-repeat;
+    background-position-y: -5%;
+    background-position-x: 0;
+    padding-bottom: 80px;
+}
+.desicion__inner {
+}
+.desicion__title {
+}
+.desicion__text {
+    margin-bottom: 40px;
+}
+.desicion__list {
+    display: flex;
+    align-items: center;
+}
+.desicion__list:not(:last-child) {
+    margin-bottom: 40px;
+}
+.desicion__list-img {
+    width: 50%;
+    margin-right: 50px;
+}
+.desicion__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.desicion__content2 {
+    flex-basis: 50%;
+    margin-right: 100px;
+}
+.desicion__content-title {
+    font-size: 200px;
+    line-height: 1;
+    font-weight: 900;
+    color: #40b977;
+    margin: 0;
+}
+.desicion__content-subtitle {
+    font-size: 50px;
+    font-weight: 900;
+    margin: 0;
+    margin-bottom: 20px;
+}
+.desicion__content-text {
+    text-align: center;
+}
+.desicion__green {
+    padding-left: 50px;
+    display: flex;
+    align-items: center;
+    background-color: #40b977;
+}
+.desicion__green-title {
+    font-size: 50px;
+    color: white;
+    margin-right: 100px;
+}
+.desicion__green-textblock {
+}
+.desicion__green-text {
+    color: white;
+}
